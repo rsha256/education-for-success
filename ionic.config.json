@@ -1,0 +1,8 @@
+{
+  "name": "education-for-success",
+  "app_id": "dfe76325",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

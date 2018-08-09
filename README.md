@@ -1,51 +1,46 @@
-# Framework7 Vue Template
+# Education For Success
 
-A simple Framework7 Vue setup in a single HTML file
+Education for Success is a non-profit tutoring organization, that uses host elementary schools with staff and students eager to help create an educational and social environment for under privileged students. We also bring together high school students willing to dedicate time and patience to the organization.
 
-This template is targeted at beginners who want to start exploring Framework7 & Vue without the distraction of a complicated development environment.
+### About the app
 
-For advanced features such as asset compilation, hot-reload and CSS extraction, we recommend that more experienced developers use [Framework7 Vue Webpack Template](https://github.com/framework7io/framework7-template-vue-webpack)
+This app was made with the purpose of organizing Education For Success's movements.
 
-## Usage
+### How do I build the App
 
-### 1. Download this repository
-```
-git clone https://github.com/framework7io/framework7-template-vue-simple my-app
-```
+#### Prerequesities: 
 
-Repository will be downloaded into `my-app/` folder
+* git (obviously)
 
-### 2. Instal dependencies
+* Node (download can be found at: http://nodejs.org/download/)
 
-Go to the downloaded repository folder and run:
-```
-npm install
-```
+* Cordova CLI (installed through node: `npm install -g cordova`). 
 
-This will download latest version of Framework7, Framework7-Vue, Vue (to `/www/libs/`) and required icon fonts (to `/www/fonts/`)
+#### Building for Android
 
-### 3. Run the app
+1. Everything should be setup already (check with: `cordova platform list`) so just run this command (in the EducationForSuccess/ dir) to build the app:
 
-```
-npm run serve
-```
+Rahuls-Imaginary-Computer:EducationForSuccess rahulshah$ `cordova build android `
 
-App will be opened in browser at `http://localhost:8080/`
+2. Then you can run it in the emulator (skip this if you want to run it for real/don't have an emulator):
 
-## Use with cordova
+Rahuls-Imaginary-Computer:EducationForSuccess rahulshah$ `cordova emulate android `
 
-Just put the contents of `www` folder in your cordova's project root `www` folder
+3. Or you can run it on a device:
 
-## One command install
+Rahuls-Imaginary-Computer:EducationForSuccess rahulshah$ `cordova run android `
 
-```
-git clone https://github.com/framework7io/framework7-template-vue-simple my-app &&
-cd my-app &&
-npm install &&
-npm run serve
-```
 
-## Live Preview
+#### Building for iOS
 
-https://framework7io.github.io/framework7-template-vue-simple/
+1. Have XCode installed
 
+2. Have a developer account (non-profits get it free per: https://developer.apple.com/support/enrollment/)
+
+
+3. then build and run.
+
+
+### Can anyone use this?
+
+Yes - this app is free and open-source as is cordova; see License for more details
